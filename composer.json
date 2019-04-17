@@ -1,0 +1,33 @@
+{
+  "name": "unoapp-dev/omnipay-globalpayments",
+  "type": "library",
+  "description": "globalpayments driver for the Omnipay payment processing library",
+  "keywords": [
+    "globalpayments",
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "payments"
+  ],
+  "homepage": "https://github.com/unoapp-dev/omnipay-globalpayments",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Prashant Ajani",
+      "email": "pintu@unoindia.co"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Omnipay\\GlobalPayments\\" : "src/" }
+  },
+  "require": {
+    "league/omnipay": "^3"
+  },
+  "require-dev": {
+    "omnipay/tests": "^3",
+    "squizlabs/php_codesniffer": "^3",
+    "phpro/grumphp": "^0.14"
+  }
+}
